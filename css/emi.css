@@ -2,3 +2,7 @@ body{
     width:80%;
     margin: auto;
 }
+
+h3{
+    background-color: grey;
+}
