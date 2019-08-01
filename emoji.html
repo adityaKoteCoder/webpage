@@ -1,0 +1,38 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta http-equiv="X-UA-Compatible" content="ie=edge">
+    <title>Document</title>
+    <link rel="spreadsheet" type="text/css" src="css/emoji.css">
+    <script type="text/javascript">
+        function showMessage(f){
+            if (f === 'happy')
+                message = "Be Happy, Enjoy your day!"
+            else if (f === "sleepy")
+                message = "Avoid using phone, have light lunch and sleep early "
+            else if (f === "angry")
+                message = "Avoid salt and do meditation... seek god's help"
+            document.getElementById("data").innerHTML = "<h2>"+message+"</h2>"
+        }
+    </script>
+</head>
+<body>
+    <h1>How are you feeling today?</h1>
+    <div class="column">
+        <img src="E:\data_programs\page\images\happy.png" alt="Happy" width="30%" onclick="showMessage('happy')"> 
+    </div>
+    <div class='column'>
+               
+        <img src="E:\data_programs\page\images\sleepy.png" alt="Sleepy" width="30%" onclick="showMessage('sleepy')"> 
+
+    </div>
+    <div>
+            
+        <img src="E:\data_programs\page\images\angry.png" alt="Angry" width="30%" onclick="showMessage('angry')"> 
+
+    </div>
+    <div id="data"></div>
+</body>
+</html>

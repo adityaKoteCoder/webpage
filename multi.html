@@ -1,0 +1,36 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta http-equiv="X-UA-Compatible" content="ie=edge">
+    <title>Document</title>
+    <link rel="spreadsheet" type="text/css" href="css/multi.css">
+    <script type="text/javascript">
+    </script>
+</head>
+<body>
+<label>Number:</label>
+<input type="text" value="num" id="num">
+<input type="button" value="submit" onekeyup="showTable()">
+<div id="display"></div>
+<script>
+    function showTable(f){
+         let num = parseInt(document.getElementbyId("num").value);
+         if(num){
+             res = ''
+             for (i = 1; i<=num; i++){
+                 res = num + "*" +i+ "="+(num*i)+ ",<br />"
+             }
+             document.getElementbyId('display').innerHTML = "<h2>"+message+"<h2>";
+             }
+             else{
+                 document.getElementId('display').innerHTML = "";
+             }
+            }
+</script>
+
+
+    
+</body>
+</html>
