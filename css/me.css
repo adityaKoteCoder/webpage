@@ -1,0 +1,25 @@
+body{
+    width:80%;
+    margin: auto;
+}
+table.ko{
+    border-style:solid;
+
+}
+table tr th{
+    border:1px solid black;
+    background: grey;
+    border-spacing: 3px;
+
+}
+
+table tr th{
+    border:1px solid black;
+    background: grey;
+    border-spacing: 3px;
+
+}
+
+h3{
+    background-color: aqua;
+}
